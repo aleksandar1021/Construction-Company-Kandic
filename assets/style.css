@@ -1,0 +1,1009 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap'); 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Solway', serif;
+    scroll-behavior:smooth;
+    font-size: 20px;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(235, 235, 235);
+}
+.sirinaFull{
+    width: 100%;
+    height: fit-content;
+}
+.sirinaSrednja{
+    width: 80%;
+    height: fit-content;
+    margin: 0px auto;
+}
+.header1{
+    background-color: rgb(22, 24, 37);  
+}
+.flexBoxSpaceBt{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.headerDodaci{
+    width: 20%;
+  padding: 10px 0px; 
+}
+.center{
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+#reg1{
+    width: 100%;
+    height: 700px;
+    background-image: url("img/poz1.jpg");
+    background-position: center;
+    border-bottom: 3px solid rgb(41, 41, 41);
+    background-size: cover;
+}
+header{
+    width: 80%;
+    margin: 0px auto;
+    height: fit-content;
+    background-color: azure;
+    align-items: center;
+}
+#logo{
+    width: fit-content;
+    height: 100px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#navMenu{
+    width: 66%;
+    height: fit-content;
+    display: flex;
+    justify-content: right;
+    align-items: center;  
+    z-index: 10;
+}
+#lista{
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;   
+ 
+}
+#lista li{
+    color: rgb(41, 41, 41);
+    padding: 20px 15px;
+    transition: 0.3s;
+}
+#lista li a{
+    color: rgb(41, 41, 41);
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 15px;
+}
+#lista li:hover{
+   background-color: #f99501;
+}
+#logo h1{
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(22, 24, 37);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#logo h1:hover{
+    color: orange;
+}
+.prvi{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+.ikona{
+    margin-right: 10px;
+    font-size: 24px !important;
+}
+.drugi{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.ikonice{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin: 0px 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+}
+.ikonice:hover{
+    cursor: pointer;
+    color: orange;
+}
+    
+#listaMedia{
+    display: flex;
+    flex-direction: row;
+}
+.treci{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.mail{
+    font-size: 15px;
+    margin-left: 20px;
+    color: white;
+}
+.mailico{
+    font-size: 24px !important;
+    color: white;
+}
+#hamburger{
+    display: none;
+    
+    display: flex;
+    
+    align-items: center;
+    padding-right: 30px;
+}
+#boxCase{
+    width: 70%; 
+    margin: 0px auto; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box{
+    width: 25%;
+    border-bottom: 3px solid rgb(41, 41, 41);
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 20px rgb(203, 203, 203);
+}
+.box img{
+    margin-bottom: 10px;
+    padding-top: 30px;
+    width: 90px;
+}
+.box p{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(41, 41, 41);
+    text-align: center;
+    padding: 20px 0px;
+    padding-bottom: 30px;
+    font-size: 19px;
+}
+.boxes{
+    margin-top: -100px;
+}
+#reg2{
+    width: 100%;
+    margin: 100px 0px; 
+}
+#aboutCompany{
+    width: 60%; 
+}
+#slikaZaOpis{
+    width: 30%;
+    height: 300px;
+}
+#slikaZaOpis img{
+    box-shadow: 0 0 20px rgb(203, 203, 203);
+}
+#reg2 .sirinaSrednja{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#aboutCompany p{
+    padding: 50px 0px;
+    padding-right: 50px;
+}
+#aboutCompany h1{
+    font-size: 40px;
+    color: #1c1c1c;
+    line-height: 40px;
+    font-weight: 700;
+}
+#aboutCompany button{
+    font-size: 17px;
+    background-color: rgb(22, 24, 37);
+    color: #fff;
+    padding: 17px 0px;
+    width: 100%;
+    max-width: 186px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    height: 60px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#slikaZaOpis img{
+    max-width: 100%;
+    height: auto;
+} 
+#dodatanOpis{
+    padding-top: 20px;
+    display: none;
+    width: 100%;
+    position: static;
+}
+#dodatanOpis h3 i{
+    color: orange;
+}
+#hamburgerSlika{
+    width: 50px;
+    float: right;
+    display: none;
+    cursor: pointer;
+}
+.display-block{
+    display: block !important;
+}
+#reg3{
+    background-color: rgb(22, 24, 37);
+    padding-bottom: 50px;
+}
+#reg3 h1{
+    margin: 50px 0px;
+    margin: 0px auto;
+}
+.strana{
+    width: 50%;
+}
+.leva{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#naslovna{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    border: 2px solid #f99501;
+}
+#tekst-opis{
+    width: 80%;
+    height: 100px;
+    background-color: #f99501;
+    margin: 0px auto;
+    text-align: center;padding-top: 30px;
+    font-weight: 600;
+}
+
+#project-naslov{
+    height: fit-content;
+    background-color: rgb(22, 24, 37);
+    color: #f99501;
+    padding: 40px 0px;
+}
+#project-naslov{
+    text-align: center;
+}
+.row{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.icon{
+    width: 30%;
+}
+.slikaa:hover{
+    border: 1px solid #f99501;
+}
+.slikaa{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#pozornicaslika{
+    width: 100%;
+    height: 100%;
+}
+#reg4{
+    width: 100%;
+    height: fit-content;
+    background-image: url("img/poz3.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    margin: 100px 0px; 
+}
+#senka{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(22, 24, 37);
+    opacity: 0.93;
+    padding: 20px 0px;
+}
+.strana2{
+    width: 50%;
+}
+.strana2.desna{
+    color: white;
+    padding: 50px 0px;
+}
+.strana2.desna h1{
+    margin: 30px 0px;
+    font-size: 40px;
+    color: #f99501;
+}
+.strana2.desna h2{
+    margin: 10px 0px;
+    font-size: 30px;
+}
+.strana2.desna p{
+    font-size: 20px;
+}
+#senka .sirinaSrednja{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#check{
+    width: 150px;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.strana2.leva {
+    padding-left: 100px;
+}
+option{
+    background-color: rgb(236, 182, 80);
+    font-size: 20px;
+}
+.red{
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+#naslovCena{
+    color: #f99501;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+#unosPov{
+    width: 150px;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+#dugmeCena{
+    width: 100px;
+    height: 40px;
+}
+#dugmeOpis{
+    margin-top: 20px;
+}
+#dugmeBrisi{
+    width: 100px;
+    height: 40px;
+}
+span{
+    width: 100%;
+    height: fit-content;
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+}
+#forma{
+    background-color: rgb(235, 235, 235);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.forma-desna{
+    background-color: rgb(75, 64, 64);
+    background-image: url("img/mapa.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.forma-leva{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+.forma-desna{
+    width: 50%;
+    background-color: rgb(235, 235, 235);
+    
+}
+.forma-desna img{
+    width: 100%;
+}
+#box-forma{
+    width: 75%;
+    height: fit-content; 
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    
+} 
+.form-box{
+    margin-bottom: 20px;
+}
+#sl{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+ 
+}
+.err{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: none;
+
+    color: red;
+    display: none;
+}
+.rbtn-box{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rbtn{
+    margin-bottom: 5px;
+    accent-color: #f99501;
+}
+.chc{
+    accent-color: #f99501;
+}
+#potvrda{
+    font-size: 17px;
+    background-color: rgb(22, 24, 37);
+    color: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 140px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#brisi{
+    margin-bottom: 30px;
+    border: 1px solid #f99501;
+    font-size: 17px;
+    background-color: #f99501;
+    color: #fff;
+    width: 100%;
+    max-width: 140px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.okvir{
+    border: 3px solid orange;
+}
+.err-ime{
+    display: none;
+}
+.err-ime-block{
+    display: block;
+}
+.okvir-greska{
+    border: 3px solid rgb(192, 0, 0);
+    background-color: rgb(255, 181, 181);
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+#deo{
+    color: #f99501;
+    font-size: 35px;
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgb(22, 24, 37);
+}
+footer .sirinaSrednja{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+    padding: 50px 0px;
+}
+.fut-elem{
+    color: white;
+    width: 25%;
+    height: 100%;
+}
+#lista-footer{
+    list-style-type: none;
+}
+.fut-elem ul li a{
+    text-decoration: none;
+    color: white;
+}
+#crta1{
+    width: 145px;
+    margin: 10px 0px 15px 0px;
+    height: 3px;
+    background-color: white;
+}
+.fut-elem ul li a:hover{
+    color: orange;
+}
+#naziv{
+    color: orange;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 35px;
+}
+#drustvene-mreze{
+    list-style-type: none;
+}
+#crta2{
+    width: 190px;
+    margin: 10px 0px 15px 0px;
+    height: 3px;
+    background-color: white;
+}
+#fb:hover{
+    color: #3b5998;
+}
+#ig:hover{
+    color: #8a3ab9;
+}
+#tw:hover{
+    color: #00acee;
+}
+#li:hover{
+    color: #0072b1;
+}
+#dk:hover{
+    color: red;
+}
+#crta3{
+    width: 50%;
+    height: 3px;
+    background-color: white;
+    margin: 0px auto;
+}
+#kraj{
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+#ime{
+    text-decoration: none;
+    color: orange;
+}
+
+#slider h1{
+    margin-top: 110px;
+    font-size: 70px;
+    color: white;
+    margin-left: 20px;
+}
+
+#slider p{
+    margin-top: 30px;
+    font-size: 30px;
+    color: orange;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#container-slider{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.strela{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.strela.druga{
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.strela i{
+    font-size: 100px;
+    color: orange;
+    transition: 0.2s;
+}
+.strela i:hover{
+    color: white;
+
+}
+.slajd{
+    display: none;
+}
+
+.prviS{
+    display: block;
+} 
+
+#dugmeKontakt{
+    font-size: 20px;
+    background-color: transparent;
+    color: orange;
+    padding: 17px 0px;
+    width: 100%;
+    max-width: 186px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    height: 60px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 3px solid orange;
+}
+
+.efekat {
+    animation-name: efekat;
+    animation-duration: 1.5s;
+}
+  
+@keyframes efekat {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+#gore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: orange;
+    position: fixed;
+    z-index: 10;
+    right: 3%;
+    bottom: 5%;
+    display: none;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#lista-opis{
+    list-style-type: none;
+}
+#lista-opis li i{
+    color: orange;
+}
+#gore:hover{
+    background-color: rgb(22, 24, 37);
+}
+#kn{
+    font-size: 35px;
+}
+#gore:hover{
+    color: orange;
+}
+#form-ok {
+    color: rgb(60, 167, 60);
+    font-size: 20px;
+}
+#ok{
+    color: rgb(60, 167, 60) !important;
+    font-size: 20px;
+}
+
+
+/* RESPONSIVE */
+@media only screen and (min-width: 921px){
+    #navMenu{
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    header{
+        flex-wrap: wrap;
+    }
+   #logo{
+    width: 100%;
+   }
+   #navMenu{
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+  
+   }
+   #lista{
+    margin: 0px auto;
+    margin-left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+   
+   
+}
+@media only screen and (max-width: 1200px){
+    #boxCase{
+        flex-wrap: wrap;
+    }
+    .boxes{
+        margin-top: 0px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+        margin: 0px auto;
+        margin-bottom: 30px;
+        
+    }
+    #navMenu{
+        display: block;
+    }
+}
+@media only screen and (max-width: 920px){
+    #sadrzaj{
+        width: 80%;
+    }
+    #forma{
+        flex-direction: column;
+    }
+    .forma-leva{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .forma-desna{
+        width: 100%;
+        margin-top: 50px;
+    }
+    #dugmeCena{
+        margin: 20px 0px;
+    }
+    .strana2.leva {
+        padding-left: 0px;
+    }
+    .sred{
+        margin: 0px auto;
+        text-align: center;
+        font-size: 15px;
+    }
+    #senka .sirinaSrednja{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #reg3{
+        flex-direction: column;
+    }
+    .strana{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .row{
+        margin: 20px auto;
+
+    }
+    #lista li {
+        padding: 0px; 
+    }
+    #navMenu{
+        display: none;
+        width: 100%;
+        
+    }
+    #hamburgerSlika{
+        display: block;
+    }
+    #lista{
+        flex-direction: column;
+        position: absolute;
+        width: 80%;
+        opacity: 0.9;
+    }
+    #lista li{
+        margin: 0px auto;
+        background-color: rgb(22, 24, 37);;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #lista li a{
+        color: white;
+    }
+    #hamburger{
+        display: block;
+        width: 50%;
+        
+    }
+    #logo{
+        width: 50%;
+        justify-content: start;
+    }
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 780px){
+    #gore{
+        display: none !important;
+    }
+    footer .sirinaSrednja{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fut-elem{
+        margin: 0px auto;
+        width: 80%;
+    }
+    .hed2{
+        flex-wrap: wrap;
+        flex-direction: column !important; 
+    }
+    .prvi{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+       
+    .drugi{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .treci{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+   
+    #slider h1{
+        margin-top: 110px;
+        font-size: 50px;
+    }
+    
+    #slider p{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    #hamburgerSlika{
+        width: 40px;
+    }
+    .sred{
+        font-size: 20px !important;
+    }
+    #naslovna{
+        height: 300px;
+    }
+    
+    .row{
+        flex-direction: column;
+        width: 70%;
+        margin: 2px auto;
+        height: fit-content;
+    }
+    .icon{
+        width: 70%;
+        margin: 10px auto;
+        height: fit-content;
+    }
+    .slikaa{
+        height: 100%;
+    }
+    
+   .prvi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+   
+   .drugi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+   .treci{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+   
+
+   .opis2{
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+   #aboutCompany{
+    width: 90%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    text-align: center;
+   }
+   #aboutCompany p{
+    padding-right: 0px;
+   }
+   #slikaZaOpis{
+    display: none;
+   }
+
+}
+
+@media only screen and (max-width: 500px) {
+    #slider h1{
+        margin-top: 110px;
+        font-size: 40px;
+    }
+    
+    #slider p{
+        margin-top: 35px;
+        font-size: 20px;
+    }
+}
+  
+   
+@media only screen and (max-width: 426px) {
+    .sred{
+        font-size: 15px;
+    }
+}
