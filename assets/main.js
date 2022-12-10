@@ -1,6 +1,6 @@
 var url = window.location.pathname;
-
-if(url.indexOf("/index.html" || url.indexOf("/")!=-1)!=-1){
+console.log(url);
+if(url.indexOf("/index.html" || url=="gradjevinskafirmakandic/"){
 
 window.onload = function(){
     let taster = document.getElementById("potvrda");
