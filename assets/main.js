@@ -1,6 +1,6 @@
 var url = window.location.pathname;
 
-if(url.indexOf("/index.html")!=-1){
+if(url.indexOf("/index.html" || url.indexOf("/")!=-1)!=-1){
 
 window.onload = function(){
     let taster = document.getElementById("potvrda");
