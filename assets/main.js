@@ -1,6 +1,6 @@
 var url = window.location.pathname;
 console.log(url);
-if(url.indexOf("/index.html" || url=="gradjevinskafirmakandic/"){
+if(url=="https://aleksandar1021.github.io/gradjevinskafirmakandic/index.html" || url=="https://aleksandar1021.github.io/gradjevinskafirmakandic/"){
 
 window.onload = function(){
     let taster = document.getElementById("potvrda");
