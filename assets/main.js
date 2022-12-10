@@ -1,6 +1,6 @@
 var url = window.location.pathname;
 console.log(url);
-if(url=="https://aleksandar1021.github.io/gradjevinskafirmakandic/index.html" || url=="https://aleksandar1021.github.io/gradjevinskafirmakandic/"){
+if(url=="/gradjevinskafirmakandic/" || url=="/gradjevinskafirmakandic/index.html"){
 
 window.onload = function(){
     let taster = document.getElementById("potvrda");
@@ -271,7 +271,7 @@ function obradaForme(){
 }
 
 
-else if(url.indexOf("/autor.html"!=-1)){
+else if(url=="/gradjevinskafirmakandic/autor.html"){
     //lista kod autora
     let objListaOmeni = document.getElementById("olist");
     let listaOMeni="";
