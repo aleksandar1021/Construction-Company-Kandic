@@ -1,6 +1,6 @@
 var url = window.location.pathname;
 
-if(url.indexOf("/index.html")!=-1 || url=="/gradjevinskafirmakandic/" || url=="/gradjevinskafirmakandic/index.html"){
+if(url=="/gradjevinskafirmakandic/" || url=="/gradjevinskafirmakandic/index.html"){
 
 window.onload = function(){
     let taster = document.getElementById("potvrda");
@@ -321,7 +321,7 @@ function obradaForme(){
 }
 
 
-else if(url.indexOf("/autor.html"!=-1) || url=="/gradjevinskafirmakandic/autor.html"){
+else if(url.indexOf(url=="/gradjevinskafirmakandic/autor.html"){
     //lista kod autora
     let objListaOmeni = document.getElementById("olist");
     let listaOMeni="";
