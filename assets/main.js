@@ -321,7 +321,7 @@ function obradaForme(){
 }
 
 
-else if(url.indexOf(url=="/gradjevinskafirmakandic/autor.html"){
+else if(url=="/gradjevinskafirmakandic/autor.html"){
     //lista kod autora
     let objListaOmeni = document.getElementById("olist");
     let listaOMeni="";
