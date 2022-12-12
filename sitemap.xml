@@ -1,8 +1,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://aleksandar1021.github.io/gradjevinskafirmakandic/</loc>
-        <lastmod>2022-12-04</lastmod>
+        <loc>https://aleksandar1021.github.io/gradjevinskafirmakandic/index.html</loc>
+        <lastmod>2022-12-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>1</priority>
-        </url>
-    </urlset>
+    </url>
+    <url>
+        <loc>https://aleksandar1021.github.io/gradjevinskafirmakandic/autor.html</loc>
+        <lastmod>2022-12-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>2</priority>
+    </url>
+</urlset>
