@@ -384,7 +384,7 @@ let listaFooterMrezeObj = document.getElementById("drustvene-mreze");
 let listaFooterMreze = "";
 let listaFooterMrezeId = new Array("fb","ig","tw","li","dk");
 let listaFooterMrezeValues  = new Array("Facebook","Instagram","Twitter","Linkedin","Dokumentacija");
-let listaFooterMrezeLinkovi = new Array("#","#","#","#","assets/Dokumentacija.pdf")
+let listaFooterMrezeLinkovi = new Array("#","#","#","#","dokumentacija.pdf")
 for(let i =0;i<listaFooterMrezeValues.length;i++){
     listaFooterMreze+=`<li><a href="${listaFooterMrezeLinkovi[i]}" id="${listaFooterMrezeId[i]}">${listaFooterMrezeValues[i]}</a></li>`;
 }
