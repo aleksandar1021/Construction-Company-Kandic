@@ -292,7 +292,7 @@ function obradaForme(){
     var ispis = document.getElementById("form-ok");    
     if(!greskaImePrez && !greskaRadio && !greskaSelect && !greskaRadio && !greskaChc && !greskaSelect){
             document.getElementById("forma2").reset();
-            ispis.innerHTML = "Uspešno ste podneli zahtev, neko od zaposlenih ce vas uskoro kontaktirati";
+            ispis.innerHTML = "Uspešno ste podneli zahtev, neko od zaposlenih će vas uskoro kontaktirati";
     }
     else{
         ispis.innerHTML="";
