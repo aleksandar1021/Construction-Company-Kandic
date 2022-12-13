@@ -21,34 +21,29 @@ $(document).ready(function(){
     }
     
   });
+
+$(".v1").click(function(){
+    $(".k1").toggle("fast");
+    if($(".v1").text()=="Pročitaj više"){
+        $(".v1").html("Pročitaj manje")
+    }
+    else{
+        $(".v1").html("Pročitaj više")
+    }
+    
 });
 
-$(document).ready(function(){
-    $(".v1").click(function(){
-      $(".k1").toggle("fast");
-      if($(".v1").text()=="Pročitaj više"){
-          $(".v1").html("Pročitaj manje")
-      }
-      else{
-          $(".v1").html("Pročitaj više")
-      }
-      
-    });
-  });
-
-  $(document).ready(function(){
-    $(".v2").click(function(){
-      $(".k2").toggle("fast");
-      if($(".v2").text()=="Pročitaj više"){
-          $(".v2").html("Pročitaj manje")
-      }
-      else{
-          $(".v2").html("Pročitaj više")
-      }
-      
-    });
-  });
-
+$(".v2").click(function(){
+    $(".k2").toggle("fast");
+    if($(".v2").text()=="Pročitaj više"){
+        $(".v2").html("Pročitaj manje")
+    }
+    else{
+        $(".v2").html("Pročitaj više")
+    }
+    
+});
+});
 
 
 //dinamicki ispis bokseva
@@ -185,7 +180,7 @@ navMenuEl.innerHTML = navMenu;
 
 //dinamicki ispis listse linkova u futeru
 let footerListaObj = document.getElementById("lista-footer");
-let footerListaValues = new Array("Početna","O nama","Projekti","Cenovnik","Kontakt","O autoru sajta");
+let footerListaValues = new Array("Početna","O nama","Projekti","Cenovnik","Kontakt","O autoru");
 let footerListaLinkovi = new Array("#1","#2","#3","#4","#5","autor.html");
 let footerLista ="";
 for(let i=0;i<footerListaLinkovi.length;i++){
@@ -344,7 +339,7 @@ else if(url=="/gradjevinskafirmakandic/autor.html"){
 
     //dinamicki ispis listse linkova u futeru
     let footerListaObj = document.getElementById("lista-footer");
-    let footerListaValues = new Array("Početna","O nama","Projekti","Cenovnik","Kontakt","O autoru sajta");
+    let footerListaValues = new Array("Početna","O nama","Projekti","Cenovnik","Kontakt","O autoru");
     let footerListaLinkovi = new Array("index.html#1","index.html#2","index.html#3","index.html#4","index.html#5","autor.html");
     let footerLista ="";
     for(let i=0;i<footerListaLinkovi.length;i++){
