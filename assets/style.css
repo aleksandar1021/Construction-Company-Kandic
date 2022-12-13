@@ -11,6 +11,14 @@
 body{
     background-color: rgb(235, 235, 235);
 }
+body::-webkit-scrollbar {
+    width: 18px;
+}
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: orange;
+    outline: 2px solid orange;
+}
 .sirinaFull{
     width: 100%;
     height: fit-content;
