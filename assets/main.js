@@ -290,7 +290,7 @@ function obradaForme(){
             greskaSelect = false;
         }
     var ispis = document.getElementById("form-ok");    
-    if(!greskaImePrez && !greskaRadio && !greskaSelect && !greskaRadio && !greskaChc && !greskaSelect){
+    if(!greskaImePrez && !greskaRadio && !greskaSelect && !greskaRadio && !greskaChc && !greskaSelect && !greskaBroj){
             document.getElementById("forma2").reset();
             ispis.innerHTML = "Uspešno ste podneli zahtev, neko od zaposlenih će vas uskoro kontaktirati";
     }
